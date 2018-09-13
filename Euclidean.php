@@ -4,7 +4,7 @@
  * GCD - Greatest Common Divisor
  *
  * gcd(a, b) = d
- * Time Complexity: O(Log min(a, b))
+ * Time Complexity: O(log min(a, b))
  */
 function gcd($a, $b){
     if ($a === 0)
