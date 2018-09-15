@@ -29,6 +29,11 @@ Finds the position (index) of a target value within a sorted array.
 Simple sorting algorithm.  
 > Time Complexity: O(n^2)
 
+## String Sum
+
+Given 2 big natural numbers, sum them together.  
+> Time Complexity: O(max(|str1|, |str2|))
+
 ## License
 
 All algorithms are licensed under the [MIT license](https://opensource.org/licenses/MIT).
