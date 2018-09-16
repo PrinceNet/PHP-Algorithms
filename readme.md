@@ -34,6 +34,11 @@ Simple sorting algorithm.
 Given 2 big natural numbers, sum them together.  
 > Time Complexity: O(max(|str1|, |str2|))
 
+## Is Prime (Simple Version)
+
+Given a integer number, check if the number is prime or not.  
+> Time Complexity: O(sqrt(n))
+
 ## License
 
 All algorithms are licensed under the [MIT license](https://opensource.org/licenses/MIT).
