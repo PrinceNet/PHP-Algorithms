@@ -4,7 +4,7 @@
  * KMP - Knuth–Morris–Pratt string-searching algorithm.
  * searches for all occurrences of a word within a text.
  *
- * Time Complexity: O(n)
+ * Time Complexity: O(n+m)
  */
 function KMP($p, $txt) {
     $m = strlen($p);
