@@ -16,7 +16,8 @@ Same as the Euclidean algorithm but this algorithm also brings us 2 numbers `x,y
 
 ## Kadane (aka Maximum Subarray Problem)
 
-Finding the contiguous subarray within a one-dimensional array.  
+Named after [Joseph Born Kadane](https://en.wikipedia.org/wiki/Joseph_Born_Kadane).  
+Finding the contiguous subarray within a one-dimensional array.
 > Time Complexity: O(n)
 
 ## Binary Search
@@ -38,6 +39,11 @@ Given 2 big natural numbers, sum them together.
 
 Given a integer number, check if the number is prime or not.  
 > Time Complexity: O(sqrt(n))
+
+## KMP (Knuth–Morris–Pratt string-searching)
+
+Given a word of size `m` and a text of size `n`, searches for all occurrences of a word within a text.  
+> Time Complexity: O(n+m)
 
 ## License
 
