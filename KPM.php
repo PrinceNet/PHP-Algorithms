@@ -88,7 +88,7 @@ $results = KMP($p, $txt);
 printf("Running KMP..." . NL . NL);
 
 if($results){
-    foreach ($results as $key => $result) {
+    foreach ($results as $result) {
         printf("Found pattern at index: %d" . NL, $result);
     }
 } else {
