@@ -50,6 +50,11 @@ Given a word of size `m` and a text of size `n`, searches for all occurrences of
 Efficient way to compute (x ^ n) % m.  
 > Time Complexity: O(log n)
 
+## Modular Multiplicative Inverse
+
+Given a and m, finds x such that: `(a * x) mod m = 1`
+> Time Complexity: O(log min(a, m))
+
 ## License
 
 All algorithms are licensed under the [MIT license](https://opensource.org/licenses/MIT).
