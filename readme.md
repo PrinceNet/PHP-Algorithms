@@ -45,6 +45,11 @@ Given a integer number, check if the number is prime or not.
 Given a word of size `m` and a text of size `n`, searches for all occurrences of a word within a text.  
 > Time Complexity: O(n+m)
 
+## Modular Exponentiation
+
+Efficient way to compute (x ^ n) % m.  
+> Time Complexity: O(log n)
+
 ## License
 
 All algorithms are licensed under the [MIT license](https://opensource.org/licenses/MIT).
