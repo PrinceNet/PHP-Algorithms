@@ -40,10 +40,15 @@ Given 2 big natural numbers, sum them together.
 Given a integer number, check if the number is prime or not.  
 > Time Complexity: O(sqrt(n))
 
+## Sieve of Eratosthenes
+
+Compute all the prime numbers that are smaller than or equal to n.  
+> Time Complexity: O(n * log(log(n)))
+
 ## KMP (Knuth–Morris–Pratt string-searching)
 
 Given a word of size `m` and a text of size `n`, searches for all occurrences of a word within a text.  
-> Time Complexity: O(n+m)
+> Time Complexity: O(n + m)
 
 ## Modular Exponentiation
 
