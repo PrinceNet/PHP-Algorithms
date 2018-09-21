@@ -45,6 +45,11 @@ Given a integer number, check if the number is prime or not.
 Compute all the prime numbers that are smaller than or equal to n.  
 > Time Complexity: O(n * log(log(n)))
 
+## Prime Factorization
+
+Compute all the prime factors of n.  
+> Time Complexity: O(sqrt(n))
+
 ## KMP (Knuth–Morris–Pratt string-searching)
 
 Given a word of size `m` and a text of size `n`, searches for all occurrences of a word within a text.  
