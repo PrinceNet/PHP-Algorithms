@@ -10,8 +10,13 @@ Given 2 natural numbers, find their greatest common divisor that divides both of
 
 ## Euclidean Extended (aka GCD Extended)
 
-Same as the Euclidean algorithm but this algorithm also brings us 2 numbers `x,y` that satisfy the following equation:  
+Same as the Euclidean algorithm but this algorithm also brings us 2 numbers `x, y` that satisfy the following equation:  
 `gcd(a, b) = ax + by = d`  
+> Time Complexity: O(log min(a, b))
+
+## Least Common Multiple (aka LCM)
+
+Given 2 natural numbers `a, b`, find the smallest positive integer that is divisible by both `a` and `b`.  
 > Time Complexity: O(log min(a, b))
 
 ## Kadane (aka Maximum Subarray Problem)
