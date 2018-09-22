@@ -55,6 +55,11 @@ Compute all the prime numbers that are smaller than or equal to n.
 Compute all the prime factors of n.  
 > Time Complexity: O(sqrt(n))
 
+## Euler's Totient Function
+
+Counts the positive integers up to a given integer n that are relatively prime to n.  
+> Time Complexity: O(sqrt(n))
+
 ## KMP (Knuth–Morris–Pratt string-searching)
 
 Given a word of size `m` and a text of size `n`, searches for all occurrences of a word within a text.  

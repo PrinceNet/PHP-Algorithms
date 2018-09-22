@@ -4,7 +4,7 @@
  * Prime Factorization
  * compute all the prime factors of n.
  * finds all pi, ei such that
- * n = p1^e1 * p2^e2 * ... * ek^ak
+ * n = p1^e1 * p2^e2 * ... * pk^ek
  * where p1, p2, ..., pk are distinct primes and
  * e1, e2, ..., ek are positive numbers.
  *
