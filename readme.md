@@ -75,6 +75,12 @@ Efficient way to compute (x ^ n) % m.
 Given a and m, finds x such that: `(a * x) mod m = 1`
 > Time Complexity: O(log min(a, m))
 
+## Binomial Coefficient
+
+nCk = n! / k! * (n - k)!  
+where n >= k >= 0
+> Time Complexity: O(k)
+
 ## License
 
 All algorithms are licensed under the [MIT license](https://opensource.org/licenses/MIT).
