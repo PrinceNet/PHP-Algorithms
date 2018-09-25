@@ -81,6 +81,13 @@ nCk = n! / k! * (n - k)!
 where n >= k >= 0
 > Time Complexity: O(k)
 
+## Graph (Data Structure)
+
+Will be used in graph algorithms later on.  
+Assuming each node is connected to at least one other node.  
+Can be direcred/undirecred and/or weighted/unweighted.  
+Using adjacency list.
+
 ## License
 
 All algorithms are licensed under the [MIT license](https://opensource.org/licenses/MIT).

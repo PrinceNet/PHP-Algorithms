@@ -2,9 +2,9 @@
 
 /**
  * Graph Data Structure
- * assuming each node is connected to at least one other node.
- * can be direcred/undirecred and/or weighted/unweighted.
- * using adjacency list.
+ * Assuming each node is connected to at least one other node.
+ * Can be direcred/undirecred and/or weighted/unweighted.
+ * Using adjacency list.
  */
 class Graph
 {
