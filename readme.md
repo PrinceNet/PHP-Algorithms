@@ -81,6 +81,13 @@ nCk = n! / k! * (n - k)!
 where n >= k >= 0
 > Time Complexity: O(k)
 
+## Activity Selection
+
+Given n activities with their start and finish times.  
+Select the maximum number of activities that can be performed by a single person or machine,  
+assuming that a person can only work on a single activity at a time
+> Time Complexity: O(n * log n)
+
 ## Graph (Data Structure)
 
 Will be used in graph algorithms later on.  
