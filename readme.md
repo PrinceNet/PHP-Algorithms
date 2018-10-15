@@ -95,6 +95,14 @@ Assuming each node is connected to at least one other node.
 Can be direcred/undirecred and/or weighted/unweighted.  
 Using adjacency list.
 
+## DFS (Depth First Search)
+
+Traversing/searching a graph data structure.  
+Explores as far as possible along each branch before backtracking.  
+V is the number of vertices.
+E is the number edges.
+> Time Complexity: O(V + E)
+
 ## License
 
 All algorithms are licensed under the [MIT license](https://opensource.org/licenses/MIT).

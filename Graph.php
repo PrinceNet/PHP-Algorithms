@@ -14,6 +14,7 @@ class Graph
     public $nodeCount = 0;
     public $nodes = [];
     public $nodeAsKeys = [];
+    public $visited = [];
 
     // default graph is direcred & unweighted
     public function __construct($undirecred = false, $weighted = false)
@@ -42,6 +43,7 @@ class Graph
             $this->nodeAsKeys[ $node ] = true;
             $this->nodes[] = $node;
             $this->nodeCount ++;
+            $this->visited[$node] = false;
         }
     }
 }
@@ -51,6 +53,7 @@ class Graph
 // ----------------
 
 $graph = new Graph(); // direcred & unweighted
+
 $graph->addEdge(1, 2);
 $graph->addEdge(2, 3);
 $graph->addEdge(2, 4);
@@ -60,6 +63,7 @@ $graph->addEdge(4, 1);
 var_dump($graph);
 
 $graph = new Graph(true, true); // undirecred & weighted
+
 $graph->addEdge(1, 2, 6);
 $graph->addEdge(2, 3, 15);
 $graph->addEdge(2, 4, 8);
