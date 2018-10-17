@@ -108,6 +108,11 @@ E is the number edges.
 Finding all shortest paths in a weighted graph with positive or negative edge weights (but with no negative cycles).
 > Time Complexity: O(V^3)
 
+## Point (Data Structure)
+
+Will be used in geometry algorithms later on.  
+2D point.
+
 ## License
 
 All algorithms are licensed under the [MIT license](https://opensource.org/licenses/MIT).
