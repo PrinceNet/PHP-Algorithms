@@ -5,19 +5,22 @@ include 'Point.php';
 ob_end_clean();
 
 /**
- * Polygon Area
+ * Polygon Perimeter
  * n is the amount of points of the polygon.
  *
  * Time Complexity: O(n)
  */
-function polygonArea($point) {
+function polygonPerimeter($point) {
     $sum = 0;
     $n = count($point);
     for ($i = 0; $i < $n; $i ++) {
-        $sum += $point[ $i ]->x * $point[ ($i + 1) % $n ]->y - $point[ ($i + 1) % $n ]->x * $point[ $i ]->y;
+        $a = abs($point[ $i ]->x - $point[ ($i + 1) % $n ]->x);
+        $b = abs($point[ $i ]->y - $point[ ($i + 1) % $n ]->y);
+        $c = sqrt($a ** 2 + $b ** 2);
+        $sum += $c;
     }
 
-    return abs($sum) / 2;
+    return $sum;
 }
 
 // ----------------
@@ -37,7 +40,7 @@ $points = [
     new Point(4, 7),
 ];
 
-printf("polygonArea(%s) = %s" . NL, stringify2DArray($points), polygonArea($points));
+printf("polygonPerimeter(%s) = %s" . NL, stringify2DArray($points), polygonPerimeter($points));
 
 $points = [
     new Point(2, 4),
@@ -47,7 +50,7 @@ $points = [
     new Point(4, 3),
 ];
 
-printf("polygonArea(%s) = %s" . NL, stringify2DArray($points), polygonArea($points));
+printf("polygonPerimeter(%s) = %s" . NL, stringify2DArray($points), polygonPerimeter($points));
 
 $points = [
     new Point(1, 2),
@@ -59,4 +62,4 @@ $points = [
     new Point(4, 1),
 ];
 
-printf("polygonArea(%s) = %s" . NL, stringify2DArray($points), polygonArea($points));
+printf("polygonPerimeter(%s) = %s" . NL, stringify2DArray($points), polygonPerimeter($points));

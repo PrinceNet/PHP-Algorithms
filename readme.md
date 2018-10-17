@@ -119,6 +119,12 @@ Find any polygon area.
 `n` is the amount of points of the polygon.
 > Time Complexity: O(n)
 
+## Polygon Perimeter
+
+Find any polygon perimeter.  
+`n` is the amount of points of the polygon.
+> Time Complexity: O(n)
+
 ## License
 
 All algorithms are licensed under the [MIT license](https://opensource.org/licenses/MIT).
