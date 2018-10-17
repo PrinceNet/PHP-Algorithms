@@ -21,11 +21,11 @@ class Point
 // ----------------
 
 $points = [
-    new Point(2,4),
-    new Point(5,5),
-    new Point(7,3),
-    new Point(4,1),
-    new Point(4,3),
+    new Point(2, 4),
+    new Point(5, 5),
+    new Point(7, 3),
+    new Point(4, 1),
+    new Point(4, 3),
 ];
 
 var_dump($points);

@@ -113,6 +113,12 @@ Finding all shortest paths in a weighted graph with positive or negative edge we
 Will be used in geometry algorithms later on.  
 2D point.
 
+## Polygon Area
+
+Find any polygon area.  
+`n` is the amount of points of the polygon.
+> Time Complexity: O(n)
+
 ## License
 
 All algorithms are licensed under the [MIT license](https://opensource.org/licenses/MIT).
