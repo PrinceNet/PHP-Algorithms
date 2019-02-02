@@ -46,6 +46,12 @@ Simple sorting algorithm.
 Given 2 big natural numbers, sum them together.  
 > Time Complexity: O(max(|str1|, |str2|))
 
+## Fisher Yates Shuffle
+
+[Preview](Fisher_Yates_Shuffle.php)  
+Given an array, shuffle the elements randomly.  
+> Time Complexity: O(n)
+
 ## Is Prime (Simple Version)
 
 [Preview](Is_Prime.php)  
